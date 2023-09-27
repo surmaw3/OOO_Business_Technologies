@@ -12,7 +12,7 @@ def merge(A, p, q, r):
     for j in range(n2):
         right[j] = A[q + j + 1]
 
-    left[n1] = float('inf')  # Бесконечность как маркер окончания
+    left[n1] = float('inf')
     right[n2] = float('inf')
 
     i = 0
